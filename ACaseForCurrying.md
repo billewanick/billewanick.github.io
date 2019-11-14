@@ -11,8 +11,8 @@ eg:
 ```
 
 #### Explanation 
-So with the new ES6 additions JavaScript got the fat arrow operator. This is JavaScript gaining more and more Functional Programming ideas into the language. I also find it interesting to look at this through the lens of language design and trying to find out what the language designers were going for.
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+So with the new ES6 additions JavaScript got the fat arrow operator. This is JavaScript gaining more and more Functional Programming ideas into the language. I also find it interesting to look at this through the lens of language design and trying to find out what the language designers were going for.  
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions  
 (Side note: there is a meaningful distinction between statement and expression. I used to think they were interchangable, but they aren't. Expressions take their inputs and return an output. Statements don't necessarily return anythin, and are more used for side effects. Expressions are declarative, statements are imperative)
 
 Arrow functions don't have a `this` keyword in them, and are best used for stateless computation. Let's take a closer look at the code above.  
